@@ -2,11 +2,13 @@
 
 //Write include for capturing input from keyboard and displaying output to screen
 
+#include <iostream> //use standard library function
 
+using std::cout;
 
-int main() 
+int main() //one main function
 {
-
-	return 0;
+	cout << "Hello World!";
+	return 0; //it may or may not return a value
 }
 
