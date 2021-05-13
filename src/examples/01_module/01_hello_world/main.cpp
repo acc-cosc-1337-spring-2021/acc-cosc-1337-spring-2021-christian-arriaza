@@ -1,8 +1,9 @@
-#include<iostream>
+#include<iostream> //use standard library function
 
-int main() 
+using std::cout;
+
+int main() //one main function
 {
-	std::cout<<"Hello World!";
-	
-	return 0;
+	cout<< "Hello World!";
+	return 0; //it may or may not return a value
 }
