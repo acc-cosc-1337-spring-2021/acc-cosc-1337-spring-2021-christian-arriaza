@@ -1,5 +1,6 @@
 //Write the include statement for types.h here
 #include "types.h"
+#include "types.cpp"
 //Write include for capturing input from keyboard and displaying output to screen
 #include <iostream>
 
@@ -7,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	int num;
+	int num = {};
 	cout << "Enter number: ";
 	cin >> num;
 
